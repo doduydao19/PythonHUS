@@ -1,0 +1,183 @@
+# sent_id = text-s1
+# text =Thanh bắt chuyện với Hùng và nói : " Tôi trông ông quen quen ? " .
+1	Thanh	thanh	PROPN	NNP	_	2	nsubj	_	_
+2	bắt chuyện	bắt chuyện	VERB	V	_	0	root	_	_
+3	với	với	ADP	Pre	_	4	case	_	_
+4	Hùng	Hùng	PROPN	NNP	_	2	obl:with	_	_
+5	và	và	CCONJ	CC	_	6	cc	_	_
+6	nói	nói	VERB	V	_	2	conj	_	_
+7	:	:	PUNCT	:	_	10	punct	_	_
+8	"	"	PUNCT	``	_	10	punct	_	_
+9	Tôi	tôi	PRON	Pro	_	10	nsubj	_	_
+10	trông	trông	VERB	V	_	2	parataxis	_	_
+11	ông	ông	NOUN	N	_	10	obj	_	_
+12	quen quen	quen quen	VERB	V	_	10	compound:redup	_	_
+13	?	?	PUNCT	?	_	10	punct	_	_
+14	"	"	PUNCT	``	_	10	punct	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = text-s2
+# text =Hùng giật mình : " Sao tôi không biết ông nhỉ ? " .
+1	Hùng	hùng	PROPN	NNP	_	2	nsubj	_	_
+2	giật mình	giật mình	VERB	V	_	0	root	_	_
+3	:	:	PUNCT	:	_	8	punct	_	_
+4	"	"	PUNCT	``	_	8	punct	_	_
+5	Sao	sao	PRON	Pro	_	8	discourse	_	_
+6	tôi	tôi	PRON	Pro	_	8	nsubj	_	_
+7	không	không	ADV	Adv	_	8	advmod:neg	_	_
+8	biết	biết	VERB	V	_	2	parataxis	_	_
+9	ông	ông	NOUN	N	_	8	obj	_	_
+10	nhỉ	nhỉ	INTJ	I	_	8	discourse	_	_
+11	?	?	PUNCT	?	_	8	punct	_	_
+12	"	"	PUNCT	``	_	8	punct	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = text-s3
+# text =Thanh quay sang Hùng : " ông quê đâu nhỉ ?
+1	Thanh	thanh	PROPN	NNP	_	2	nsubj	_	_
+2	quay	quay	VERB	V	_	0	root	_	_
+3	sang	sang	ADP	Pre	_	2	compound:dir	_	_
+4	Hùng	Hùng	PROPN	NNP	_	2	obj	_	_
+5	:	:	PUNCT	:	_	8	punct	_	_
+6	"	"	PUNCT	``	_	8	punct	_	_
+7	ông	ông	NOUN	N	_	8	nsubj	_	_
+8	quê	quê	NOUN	N	_	2	parataxis	_	_
+9	đâu	đâu	PRON	Pro	_	8	det:pmod	_	_
+10	nhỉ	nhỉ	INTJ	I	_	9	discourse	_	_
+11	?	?	PUNCT	?	_	2	punct	_	_
+
+# sent_id = text-s4
+# text =À , tôi còn có danh sách lớp đây này " .
+1	À	à	INTJ	I	_	5	discourse	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	tôi	tôi	PRON	Pro	_	5	nsubj	_	_
+4	còn	còn	ADV	Adv	_	5	advmod	_	_
+5	có	có	VERB	V	_	0	root	_	_
+6	danh sách	danh sách	NOUN	N	_	5	obj	_	_
+7	lớp	lớp	NOUN	N	_	6	nmod	_	_
+8	đây	đây	PART	Prt	_	5	discourse	_	_
+9	này	này	PART	Prt	_	5	discourse	_	_
+10	"	"	PUNCT	``	_	5	punct	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = text-s5
+# text =Nói rồi Thanh giở danh sách lớp đọc vanh vách tên tuổi , địa chỉ , điện thoại của Hùng .
+1	Nói	nói	VERB	V	_	4	advcl	_	_
+2	rồi	rồi	ADV	Adv	_	1	advmod	_	_
+3	Thanh	Thanh	PROPN	NNP	_	4	nsubj	_	_
+4	giở	giở	VERB	V	_	0	root	_	_
+5	danh sách	danh sách	NOUN	N	_	4	obj	_	_
+6	lớp	lớp	NOUN	N	_	5	nmod	_	_
+7	đọc	đọc	VERB	V	_	4	xcomp	_	_
+8	vanh vách	vanh vách	ADJ	Adj	_	7	advmod:adj	_	_
+9	tên tuổi	tên tuổi	NOUN	N	_	7	obj	_	_
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	địa chỉ	địa chỉ	NOUN	N	_	9	conj	_	_
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	điện thoại	điện thoại	NOUN	N	_	9	conj	_	_
+14	của	của	ADP	Pre	_	15	case	_	_
+15	Hùng	Hùng	PROPN	NNP	_	9	nmod:poss	_	_
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = text-s6
+# text =Có lẽ vì lịch sự Hùng cũng nói : " Tôi cũng thấy hình như gặp ông ở đâu " .
+1	Có lẽ	có lẽ	X	X	_	6	discourse	_	_
+2	vì	vì	ADP	Pre	_	3	case	_	_
+3	lịch sự	lịch sự	ADJ	Adj	_	6	advcl	_	_
+4	Hùng	Hùng	PROPN	NNP	_	6	nsubj	_	_
+5	cũng	cũng	ADV	Adv	_	6	advmod	_	_
+6	nói	nói	VERB	V	_	0	root	_	_
+7	:	:	PUNCT	:	_	11	punct	_	_
+8	"	"	PUNCT	``	_	11	punct	_	_
+9	Tôi	tôi	PRON	Pro	_	11	nsubj	_	_
+10	cũng	cũng	ADV	Adv	_	11	advmod	_	_
+11	thấy	thấy	VERB	V	_	6	parataxis	_	_
+12	hình như	hình như	X	X	_	13	discourse	_	_
+13	gặp	gặp	VERB	V	_	11	xcomp	_	_
+14	ông	ông	NOUN	N	_	13	obj	_	_
+15	ở	ở	ADP	Pre	_	16	case	_	_
+16	đâu	đâu	PRON	Pro	_	13	obl:comp	_	_
+17	"	"	PUNCT	``	_	11	punct	_	_
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = text-s7
+# text =Như dự đoán của Thanh , mấy hôm sau Hùng gặp bà Loan thưa chuyện .
+1	Như	như	ADJ	Adj	_	10	advcl	_	_
+2	dự đoán	dự đoán	NOUN	N	_	1	obj	_	_
+3	của	của	ADP	Pre	_	4	case	_	_
+4	Thanh	Thanh	PROPN	NNP	_	2	nmod:poss	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+6	mấy	mấy	DET	Det	_	7	det	_	_
+7	hôm	hôm	NOUN	N	_	10	obl:tmod	_	_
+8	sau	sau	ADJ	Adj	_	7	amod	_	_
+9	Hùng	Hùng	PROPN	NNP	_	10	nsubj	_	_
+10	gặp	gặp	VERB	V	_	0	root	_	_
+11	bà	bà	NOUN	Nc	_	12	clf:det	_	_
+12	Loan	Loan	PROPN	NNP	_	10	obj	_	_
+13	thưa	thưa	VERB	V	_	10	advcl:objective	_	_
+14	chuyện	chuyện	NOUN	N	_	13	obj	_	_
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = text-s8
+# text =Có lẽ đã thấy đủ , bà Loan xách túi đi ra với cả ban nhạc trong lòng .
+1	Có lẽ	có lẽ	X	X	_	3	discourse	_	_
+2	đã	đã	ADV	Adv	_	3	advmod	_	_
+3	thấy	thấy	VERB	V	_	8	advcl	_	_
+4	đủ	đủ	ADJ	Adj	_	3	advmod:adj	_	_
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	bà	bà	NOUN	Nc	_	7	clf:det	_	_
+7	Loan	Loan	PROPN	NNP	_	8	nsubj	_	_
+8	xách	xách	VERB	V	_	0	root	_	_
+9	túi	túi	NOUN	N	_	8	obj	_	_
+10	đi	đi	VERB	V	_	8	xcomp	_	_
+11	ra	ra	ADV	Adv	_	10	compound:dir	_	_
+12	với	với	ADP	Pre	_	14	case	_	_
+13	cả	cả	PRON	Pro	_	14	det	_	_
+14	ban nhạc	ban nhạc	NOUN	N	_	10	obl:comp	_	_
+15	trong	trong	ADP	Pre	_	16	case	_	_
+16	lòng	lòng	NOUN	N	_	14	obl:comp	_	_
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = text-s9
+# text =Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+1	Theo	theo	VERB	V	_	7	advcl	_	_
+2	chân	chân	NOUN	N	_	1	obj	_	_
+3	cửu vạn	cửu vạn	NOUN	N	_	2	nmod	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+5	chúng tôi	chúng tôi	PRON	Pro	_	7	nsubj	_	_
+6	đã	đã	ADV	Adv	_	7	advmod	_	_
+7	chứng kiến	chứng kiến	VERB	V	_	0	root	_	_
+8	con	con	NOUN	Nc	_	9	clf:det	_	_
+9	đường	đường	NOUN	N	_	14	nsubj	_	_
+10	vận chuyển	vận chuyển	VERB	V	_	9	acl:subj	_	_
+11	hàng	hàng	NOUN	N	_	10	obj	_	_
+12	lậu	lậu	ADJ	Adj	_	11	amod	_	_
+13	đầy	đầy	ADJ	Adj	_	14	advmod:adj	_	_
+14	sôi động	sôi động	VERB	V	_	7	compound:vmod	_	_
+15	và	và	CCONJ	CC	_	20	cc	_	_
+16	cũng	cũng	ADV	Adv	_	20	advmod	_	_
+17	không	không	ADV	Adv	_	20	advmod:neg	_	_
+18	kém	kém	ADJ	Adj	_	20	advmod:adj	_	_
+19	phần	phần	NOUN	N	_	20	clf:det	_	_
+20	tinh vi	tinh vi	ADJ	Adj	_	14	conj	_	_
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	phức tạp	phức tạp	ADJ	Adj	_	20	conj	_	_
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = text-s10
+# text =Thanh vỗ đùi đánh đét rồi hô váng nhà : " Thôi chết rồi !
+1	Thanh	thanh	PROPN	NNP	_	2	nsubj	_	_
+2	vỗ	vỗ	VERB	V	_	0	root	_	_
+3	đùi	đùi	NOUN	N	_	2	obj	_	_
+4	đánh	đánh	VERB	V	_	2	xcomp	_	_
+5	đét	đét	ADJ	Adj	_	4	xcomp	_	_
+6	rồi	rồi	SCONJ	SC	_	7	cc	_	_
+7	hô	hô	VERB	V	_	2	conj	_	_
+8	váng	váng	ADJ	Adj	_	7	advmod:adj	_	_
+9	nhà	nhà	NOUN	N	_	8	obj	_	_
+10	:	:	PUNCT	:	_	13	punct	_	_
+11	"	"	PUNCT	``	_	13	punct	_	_
+12	Thôi	thôi	PART	Prt	_	13	discourse	_	_
+13	chết	chết	VERB	V	_	2	parataxis	_	_
+14	rồi	rồi	PART	Prt	_	13	discourse	_	_
+15	!	!	PUNCT	!	_	2	punct	_	_
